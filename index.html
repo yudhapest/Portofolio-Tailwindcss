@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="dist/output.css" /><script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body class="bg-[#181E30]">
+    <!-- Header Start-->
+    <header class="bg-transparent w-full flex items-center z-10">
+      <div class="container">
+          <div class="flex items-center justify-between relative">
+              <div class="px-4">
+                  <a href="#" class="font-bold text-2xl text-white block py-6">Portofolio</a>
+              </div>
+              <div class="flex items-center px-4">
+                  <button id="hamburger" name="hamburger" type="button" class="block right-4 lg:hidden">
+                      <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                      <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                      <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                  </button>
+  
+                  <nav id="nav-menu" class="hidden py-5 bg-[#181E30] shadow-2xl rounded-lg max-w-[250px] w-full right-4 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                      <ul class="block lg:flex">
+                          <li class="group">
+                              <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-[#0ef] flex">Beranda</a>
+                          </li>
+                          <li class="group">
+                              <a href="#about" class="text-base text-white py-2 mx-8 group-hover:text-[#0ef] flex">Tentang Saya</a>
+                          </li>
+                          <li class="group">
+                              <a href="#service" class="text-base text-white py-2 mx-8 group-hover:text-[#0ef] flex">Layanan</a>
+                          </li>
+                          <li class="group">
+                              <a href="#portofolio" class="text-base text-white py-2 mx-8 group-hover:text-[#0ef] flex">Portofolio</a>
+                          </li>
+                          <li class="group">
+                              <a href="#contact" class="text-base text-white py-2 mx-8 group-hover:text-[#0ef] flex">Kontak</a>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  
+    <!-- Header End -->
+    <!-- Home Section Start -->
+    <section
+      id="home"
+      class="py-8 flex items-center justify-center min-h-[100vh] md:min-h-0 lg:min-h-[100vh] xl:mx-20"
+    >
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 md:w-1/2 lg:w-1/2">
+            <h3 class="text-2xl font-bold text-white md:text-3xl lg:text-4xl">
+              Hai, Nama Saya
+            </h3>
+            <h1 class="text-xl font-bold text-white md:text-2xl lg:text-3xl">
+              Yudha Irmawan
+            </h1>
+            <h3
+              class="text-lg font-bold text-white leading-6 md:text-xl md:leading-7 lg:text-2xl"
+            >
+              dan saya seorang
+              <span class="text-[#0ef]">Multiplatform-developer</span>
+            </h3>
+            <p
+              class="mt-2 text-base font-normal text-white leading-5 md:text-lg md:leading-6 md:mt-1"
+            >
+              Developer yang terampil menulis konten melek teknologi yang
+              menarik dan informatif.
+            </p>
+            <div class="mt-4">
+              <a
+                href="#"
+                class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-transparent border-solid border-[#0ef] border-2 text-[#0ef] text-xl hover:bg-[#0ef] hover:text-white transition duration-500 ease-in-out mr-1"
+              >
+                <i class="bx bxl-instagram"></i
+              ></a>
+              <a
+                href="#"
+                class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-transparent border-solid border-[#0ef] border-2 text-[#0ef] text-xl hover:bg-[#0ef] hover:text-white transition duration-500 ease-in-out mr-1"
+              >
+                <i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                href="#"
+                class="inline-flex justify-center items-center w-10 h-10 rounded-full bg-transparent border-solid border-[#0ef] border-2 text-[#0ef] text-xl hover:bg-[#0ef] hover:text-white transition duration-500 ease-in-out mr-1"
+              >
+                <i class="bx bxl-github"></i
+              ></a>
+            </div>
+            <a
+              href="#"
+              class="mt-4 inline-block py-2 px-5 bg-[#0ef] text-base text-black font-semibold rounded-full shadow-primary hover:shadow-none transition duration-500 ease-in-out md:text-lg"
+              >Download CV</a
+            >
+          </div>
+          <div class="w-full self-end px-4 md:w-1/2 lg:w-1/2">
+            <div class="mt-10">
+              <img
+                src="dist/img/header.png"
+                alt="photo.png"
+                class="max-w-full mx-auto md:max-w-[80%]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End-->
+
+    <!-- About Section start -->
+    <section
+      id="about"
+      class="py-8 flex items-center justify-center text-white min-h-[100vh] md:min-h-0 lg:min-h-[100vh] xl:mx-20"
+    >
+      <div class="container">
+        <div class="w-full px-4">
+          <h1 class="text-2xl font-bold text-center md:text-3xl md:font-bold">
+            Tentang <span class="text-[#0ef]">Saya</span>
+          </h1>
+          <h3 class="mt-2 text-xl font-semibold text-center md:text-2xl">
+            Multiplatform-developer
+          </h3>
+          <p class="mt-2 text-base font-normal md:text-lg text-justify">
+            Halo! Saya seorang developer mobile dan website yang baru saja lulus
+            dari perguruan tinggi. Saya sangat antusias dalam menciptakan
+            aplikasi mobile yang inovatif dan situs web yang menarik. Melalui
+            pendidikan saya, saya telah memperoleh pengetahuan mendalam tentang
+            pengembangan perangkat lunak dan teknologi terkini. Sebagai seorang
+            fresh graduate, saya memiliki semangat yang tinggi untuk terus
+            belajar dan mengembangkan keterampilan saya dalam industri ini. Saya
+            percaya bahwa dengan kreativitas, kerja keras, dan dedikasi, saya
+            dapat menciptakan solusi perangkat lunak yang bermanfaat dan
+            memuaskan kebutuhan pengguna.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Service section Start -->
+    <section
+      id="service"
+      class="py-8 flex items-center justify-center text-white min-h-[100vh] md:min-h-0 lg:min-h-[100vh] xl:mx-20"
+    >
+      <div class="container">
+        <h1
+          class="text-2xl font-bold text-center mb-5 md:mb-10 md:text-3xl md:font-bold"
+        >
+          Layanan <span class="text-[#0ef]">Saya</span>
+        </h1>
+        <div class="flex justify-center items-center gap-8 flex-wrap px-4">
+          <div
+            class="flex-box bg-bg-slate-900 px-12 py-8 text-center rounded-3xl border-solid border-2 border-b-gray-300 hover:bg-[#323946] hover:border-solid hover:border-2 hover:border-[#0ef] transition duration-500 ease-in-out"
+          >
+            <i class="bx bx-code-alt text-4xl text-[#0ef]"></i>
+            <h3 class="mt-3 text-xl font-bold">Web Desain</h3>
+            <p
+              class="mt-2 text-base font-normal text-justify leading-5 md:text-lg"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in
+              excepturi quidem. Blanditiis, adipisci? Natus temporibus
+              accusantium magnam aspernatur quod?
+            </p>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="inline-block py-2 px-5 bg-[#0ef] text-base text-black font-semibold rounded-full shadow-primary hover:shadow-none transition duration-500 ease-in-out md:text-lg"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="flex-box bg-bg-slate-900 px-12 py-8 text-center rounded-3xl border-solid border-2 border-b-gray-300 hover:bg-[#323946] hover:border-solid hover:border-2 hover:border-[#0ef] transition duration-500 ease-in-out"
+          >
+            <i class="bx bx-code-alt text-4xl text-[#0ef]"></i>
+            <h3 class="mt-3 text-xl font-bold">Web Desain</h3>
+            <p
+              class="mt-2 text-base font-normal text-justify leading-5 md:text-lg"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in
+              excepturi quidem. Blanditiis, adipisci? Natus temporibus
+              accusantium magnam aspernatur quod?
+            </p>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="inline-block py-2 px-5 bg-[#0ef] text-base text-black font-semibold rounded-full shadow-primary hover:shadow-none transition duration-500 ease-in-out md:text-lg"
+                >Read more</a
+              >
+            </div>
+          </div>
+          <div
+            class="flex-box bg-bg-slate-900 px-12 py-8 text-center rounded-3xl border-solid border-2 border-b-gray-300 hover:bg-[#323946] hover:border-solid hover:border-2 hover:border-[#0ef] transition duration-500 ease-in-out"
+          >
+            <i class="bx bx-code-alt text-4xl text-[#0ef]"></i>
+            <h3 class="mt-3 text-xl font-bold">Web Desain</h3>
+            <p
+              class="mt-2 text-base font-normal text-justify leading-5 md:text-lg"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in
+              excepturi quidem. Blanditiis, adipisci? Natus temporibus
+              accusantium magnam aspernatur quod?
+            </p>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="inline-block py-2 px-5 bg-[#0ef] text-base text-black font-semibold rounded-full shadow-primary hover:shadow-none transition duration-500 ease-in-out md:text-lg"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service Section End -->
+
+    <!-- Portofolio Section Start-->
+    <section
+      id="portofolio"
+      class="py-8 flex items-center justify-center text-white min-h-[100vh] md:min-h-0 lg:min-h-[100vh] xl:mx-20"
+    >
+      <div class="container">
+        <h1
+          class="text-2xl font-bold text-center mb-5 md:mb-10 md:text-3xl md:font-bold"
+        >
+          Portofolio <span class="text-[#0ef]">Saya</span>
+        </h1>
+        <div
+          class="grid grid-cols-1 items-center gap-8 px-4 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="portofolio-box">
+            <img
+              src="dist/img/UI1.png"
+              alt="gambar.png"
+              class="w-full hover:scale-[1.1] transition duration-500 ease-out"
+            />
+            <div class="portofolio-layer">
+              <h4 class="text-xl font-bold mb-2 text-white">UI/UX Desain</h4>
+              <p
+                class="text-center text-base font-light mb-4 text-white md:text-lg"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                id repudiandae nisi harum rem repellat?
+              </p>
+              <a
+                href="#"
+                class="inline-flex w-12 h-12 bg-slate-50 rounded-full items-center justify-center"
+                ><i class="bx bx-link-external text-xl font-bold"></i
+              ></a>
+            </div>
+          </div>
+          <div class="portofolio-box">
+            <img
+              src="dist/img/UI1.png"
+              alt="gambar.png"
+              class="w-full hover:scale-[1.1] transition duration-500 ease-out"
+            />
+            <div class="portofolio-layer">
+              <h4 class="text-xl font-bold mb-2 text-white">UI/UX Desain</h4>
+              <p
+                class="text-center text-base font-light mb-4 text-white md:text-lg"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                id repudiandae nisi harum rem repellat?
+              </p>
+              <a
+                href="#"
+                class="inline-flex w-12 h-12 bg-slate-50 rounded-full items-center justify-center"
+                ><i class="bx bx-link-external text-xl font-bold"></i
+              ></a>
+            </div>
+          </div>
+          <div class="portofolio-box">
+            <img
+              src="dist/img/UI1.png"
+              alt="gambar.png"
+              class="w-full hover:scale-[1.1] transition duration-500 ease-out"
+            />
+            <div class="portofolio-layer">
+              <h4 class="text-xl font-bold mb-2 text-white">UI/UX Desain</h4>
+              <p
+                class="text-center text-base font-light mb-4 text-white md:text-lg"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                id repudiandae nisi harum rem repellat?
+              </p>
+              <a
+                href="#"
+                class="inline-flex w-12 h-12 bg-slate-50 rounded-full items-center justify-center"
+                ><i class="bx bx-link-external text-xl font-bold"></i
+              ></a>
+            </div>
+          </div>
+          <div class="portofolio-box">
+            <img
+              src="dist/img/UI1.png"
+              alt="gambar.png"
+              class="w-full hover:scale-[1.1] transition duration-500 ease-out"
+            />
+            <div class="portofolio-layer">
+              <h4 class="text-xl font-bold mb-2 text-white">UI/UX Desain</h4>
+              <p
+                class="text-center text-base font-light mb-4 text-white md:text-lg"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                id repudiandae nisi harum rem repellat?
+              </p>
+              <a
+                href="#"
+                class="inline-flex w-12 h-12 bg-slate-50 rounded-full items-center justify-center"
+                ><i class="bx bx-link-external text-xl font-bold"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Protofolio Section End-->
+
+    <!-- Contact Section Start -->
+    <section
+      id="contact"
+      class="py-8 flex items-center justify-center text-white min-h-[100vh] md:min-h-0 lg:min-h-[100vh] xl:mx-20"
+    >
+      <div class="container">
+        <h1
+          class="text-2xl font-bold text-center mb-5 md:mb-10 md:text-3xl md:font-bold"
+        >
+          Hubungi <span class="text-[#0ef]">Saya</span>
+        </h1>
+        <div class="mx-4">
+          <form action="#" class="m-auto mb-7 text-center md:max-w-full">
+            <div class="flex justify-between flex-wrap">
+              <input
+                type="text"
+                placeholder="Nama Lengkap"
+                class="w-full p-4 text-base text-white bg-slate-950 rounded-lg my-1 md:w-[49%] md:my-2"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-full p-4 text-base text-white bg-slate-950 rounded-lg my-1 md:w-[49%] md:my-2"
+              />
+            </div>
+            <div class="flex justify-between flex-wrap">
+              <input
+                type="number"
+                placeholder="Nomor HP/WA"
+                class="w-full p-4 text-base text-white bg-slate-950 rounded-lg my-1 md:w-[49%] md:my-2"
+              />
+              <input
+                type="text"
+                placeholder="Email Subjek"
+                class="w-full p-4 text-base text-white bg-slate-950 rounded-lg my-1 md:w-[49%] md:my-2"
+              />
+            </div>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Pesan Kamu"
+              class="w-full p-4 text-base text-white bg-slate-950 rounded-lg my-1 resize-none"
+            ></textarea>
+            <input
+              type="submit"
+              value="Kirim"
+              class="inline-block py-2 px-5 my-4 bg-[#0ef] text-base text-slate-950 font-semibold rounded-full shadow-primary hover:shadow-none transition duration-500 ease-in-out md:text-lg"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start-->
+    <footer class="bg-[#0ef] flex items-center justify-center py-4">
+      <div class="text-slate-950 text-base font-semibold">
+        Copyright &copy; 2023 by Yudha Irmawan
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
